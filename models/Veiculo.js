@@ -9,4 +9,4 @@ var VeiculoSchema = new mongoose.Schema({
   popularidade: Number
 });
 
-module.exports = mongoose.model('Usuario', UsuarioSchema);
+module.exports = mongoose.model('Veiculo', VeiculoSchema);
