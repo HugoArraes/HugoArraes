@@ -7,4 +7,4 @@ var AlunoSchema = new mongoose.Schema({
   turno: Number
 });
 
-module.exports = mongoose.model('Usuario', UsuarioSchema);
+module.exports = mongoose.model('Aluno', AlunoSchema);
